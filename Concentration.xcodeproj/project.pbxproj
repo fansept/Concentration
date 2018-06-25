@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A110A0A720CA6889003C42A0 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110A0A620CA6889003C42A0 /* Concentration.swift */; };
+		A110A0A920CA6997003C42A0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110A0A820CA6997003C42A0 /* Card.swift */; };
+		A132D1ED20DC9EEA00C458A1 /* ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132D1EC20DC9EEA00C458A1 /* ConcentrationThemeChooserViewController.swift */; };
 		A1C30D0F20C9174800BFB49F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C30D0E20C9174800BFB49F /* AppDelegate.swift */; };
-		A1C30D1120C9174900BFB49F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C30D1020C9174900BFB49F /* ViewController.swift */; };
+		A1C30D1120C9174900BFB49F /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C30D1020C9174900BFB49F /* ConcentrationViewController.swift */; };
 		A1C30D1420C9174900BFB49F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C30D1220C9174900BFB49F /* Main.storyboard */; };
 		A1C30D1620C9174C00BFB49F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C30D1520C9174C00BFB49F /* Assets.xcassets */; };
 		A1C30D1920C9174C00BFB49F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C30D1720C9174C00BFB49F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A110A0A620CA6889003C42A0 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		A110A0A820CA6997003C42A0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A132D1EC20DC9EEA00C458A1 /* ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
 		A1C30D0B20C9174800BFB49F /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C30D0E20C9174800BFB49F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1C30D1020C9174900BFB49F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1C30D1020C9174900BFB49F /* ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewController.swift; sourceTree = "<group>"; };
 		A1C30D1320C9174900BFB49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1C30D1520C9174C00BFB49F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1C30D1820C9174C00BFB49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +60,25 @@
 		A1C30D0D20C9174800BFB49F /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				A1C30D0E20C9174800BFB49F /* AppDelegate.swift */,
-				A1C30D1020C9174900BFB49F /* ViewController.swift */,
+				A132D1EC20DC9EEA00C458A1 /* ConcentrationThemeChooserViewController.swift */,
+				A110A0A620CA6889003C42A0 /* Concentration.swift */,
+				A110A0A820CA6997003C42A0 /* Card.swift */,
+				A1E969E220CA154C00EECB2D /* Supporting Files */,
+				A1C30D1020C9174900BFB49F /* ConcentrationViewController.swift */,
 				A1C30D1220C9174900BFB49F /* Main.storyboard */,
-				A1C30D1520C9174C00BFB49F /* Assets.xcassets */,
-				A1C30D1720C9174C00BFB49F /* LaunchScreen.storyboard */,
 				A1C30D1A20C9174C00BFB49F /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		A1E969E220CA154C00EECB2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C30D0E20C9174800BFB49F /* AppDelegate.swift */,
+				A1C30D1520C9174C00BFB49F /* Assets.xcassets */,
+				A1C30D1720C9174C00BFB49F /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C30D1120C9174900BFB49F /* ViewController.swift in Sources */,
+				A132D1ED20DC9EEA00C458A1 /* ConcentrationThemeChooserViewController.swift in Sources */,
+				A1C30D1120C9174900BFB49F /* ConcentrationViewController.swift in Sources */,
 				A1C30D0F20C9174800BFB49F /* AppDelegate.swift in Sources */,
+				A110A0A720CA6889003C42A0 /* Concentration.swift in Sources */,
+				A110A0A920CA6997003C42A0 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +300,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GKTXWX43A;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.algobet.ios.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,14 +321,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GKTXWX43A;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.algobet.ios.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
